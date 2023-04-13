@@ -5,8 +5,6 @@ import 'package:intl/date_symbol_data_local.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
-  // final flights = await FlightApi().all();
-  // print(flights);
   WidgetsFlutterBinding.ensureInitialized();
 
   final database = await DatabaseRepository.newConnection();
